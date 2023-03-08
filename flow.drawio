@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T07:00:49.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="jUs0gb0z_e4PlzK2FkLK" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-08T07:58:26.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="_rfdfLz4SWP_vt5c7ETM" version="21.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="558" dy="247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="957" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -59,10 +59,10 @@
         <mxCell id="QvWZTnU6vdOAeF6a9atO-4" value="User&lt;br&gt;Wybiera&lt;br&gt;książke" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="550" y="140" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QvWZTnU6vdOAeF6a9atO-5" value="zmiana statusy na rezerwacja book_id na rezerwacja w BOOK" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="100" width="140" height="40" as="geometry" />
+        <mxCell id="QvWZTnU6vdOAeF6a9atO-5" value="zmiana statusy na reserved book_id w BOOK" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="80" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QvWZTnU6vdOAeF6a9atO-6" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QvWZTnU6vdOAeF6a9atO-8" target="QvWZTnU6vdOAeF6a9atO-9">
+        <mxCell id="QvWZTnU6vdOAeF6a9atO-6" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QvWZTnU6vdOAeF6a9atO-8" target="QvWZTnU6vdOAeF6a9atO-20">
           <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -73,13 +73,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QvWZTnU6vdOAeF6a9atO-8" value="Angieszka przygotuje ksiażki" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="550" y="290" width="100" height="80" as="geometry" />
+          <mxGeometry x="550" y="240" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QvWZTnU6vdOAeF6a9atO-9" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="540" y="430" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QvWZTnU6vdOAeF6a9atO-10" value="jesli ksiazka jest przygotowana, zmienia status na ready to lend w BOOK i BORROWED dla book_id" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="700" y="310" width="220" height="60" as="geometry" />
+        <mxCell id="QvWZTnU6vdOAeF6a9atO-10" value="jesli ksiazka jest przygotowana, Agnieszka zmienia status na ready to lend w BOOK i BORROWED dla book_id" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="230" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QvWZTnU6vdOAeF6a9atO-12" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QvWZTnU6vdOAeF6a9atO-4" target="QvWZTnU6vdOAeF6a9atO-5">
           <mxGeometry relative="1" as="geometry">
@@ -88,7 +85,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QvWZTnU6vdOAeF6a9atO-13" value="Przypisanie book_id do BORROWED dla zalogowanego usera" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="160" width="140" height="40" as="geometry" />
+          <mxGeometry x="710" y="130" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QvWZTnU6vdOAeF6a9atO-14" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="QvWZTnU6vdOAeF6a9atO-13" source="QvWZTnU6vdOAeF6a9atO-4">
           <mxGeometry relative="1" as="geometry">
@@ -96,14 +93,35 @@
             <mxPoint x="640" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QvWZTnU6vdOAeF6a9atO-15" value="Stworzenie listy książek do przygotowania na podstawie tabeli CUSTOMER-&amp;gt;BORROWED-&amp;gt;book_id" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="210" width="160" height="70" as="geometry" />
+        <mxCell id="QvWZTnU6vdOAeF6a9atO-15" value="Stworzenie listy książek do przygotowania na podstawie tabeli BORROWED-&amp;gt;book_id" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="180" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QvWZTnU6vdOAeF6a9atO-16" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="QvWZTnU6vdOAeF6a9atO-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="180" as="sourcePoint" />
             <mxPoint x="620" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QvWZTnU6vdOAeF6a9atO-20" value="User odbiera fizycznie ksiażkę" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="545" y="340" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QvWZTnU6vdOAeF6a9atO-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="QvWZTnU6vdOAeF6a9atO-24" source="QvWZTnU6vdOAeF6a9atO-20">
+          <mxGeometry x="-0.2" y="40" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="655" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QvWZTnU6vdOAeF6a9atO-24" value="Agnieszka zmienia status na borrowed w BOOK i BORROWED dla book_id" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="695" y="310" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QvWZTnU6vdOAeF6a9atO-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="QvWZTnU6vdOAeF6a9atO-26" source="QvWZTnU6vdOAeF6a9atO-20">
+          <mxGeometry x="-0.2" y="40" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="660" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QvWZTnU6vdOAeF6a9atO-26" value="zmiana ilości dostepnych ksiazek w BOOk" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="390" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
